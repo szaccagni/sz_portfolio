@@ -35,15 +35,11 @@
     justify-content: flex-end;
     position: absolute;
     width: 100%;
-    font-size: 55px;
+    font-size: 80px;
 }
 
 @media screen and (min-width: 1600px) {
     .photo-booth {
         width: 75%;
-    }
-
-    .home-text {
-        font-size: inherit;
     }
 }

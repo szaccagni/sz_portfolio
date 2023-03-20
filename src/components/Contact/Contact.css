@@ -1,0 +1,33 @@
+.contact-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.contact-abs-container {
+    position: absolute;
+    right:0;
+}
+
+.contact-link {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-link a {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--yellow)
+}
+
+.contact-link a:hover {
+    color:var(--pale-green)
+}
+
+.contact-email {
+    text-align: right;
+}
