@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sz_portfolio/static/css/main.dfa00644.css",
+    "main.js": "/sz_portfolio/static/js/main.b9b51b35.js",
+    "index.html": "/sz_portfolio/index.html",
+    "main.dfa00644.css.map": "/sz_portfolio/static/css/main.dfa00644.css.map",
+    "main.b9b51b35.js.map": "/sz_portfolio/static/js/main.b9b51b35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfa00644.css",
+    "static/js/main.b9b51b35.js"
+  ]
+}
