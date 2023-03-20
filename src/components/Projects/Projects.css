@@ -1,0 +1,30 @@
+.project-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.project-abs-container {
+    position: absolute;
+    right:0;
+}
+
+.project-link {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.project-link a {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    color: var(--yellow)
+}
+
+.project-link a:hover {
+    color:var(--pale-green)
+}
