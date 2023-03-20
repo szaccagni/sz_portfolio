@@ -2,12 +2,22 @@
   --red-orange: #FF5937;
   --yellow: #FFE973;
   --off-white: #F9F9F9;
+  --pale-green: #9BC8A0;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
-  padding: 20px;
   background-color: var(--red-orange);
   color: var(--yellow);
   font-family: 'Circular-Loom';
-  font-size: 55px;
+  font-size: 65px;
+  height: 100vh;
 }
