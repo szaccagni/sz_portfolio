@@ -1,0 +1,11 @@
+.nav-bar div{
+    line-height: 83%;
+}
+.nav-link a {
+    text-decoration: none;
+    color: var(--yellow);
+}
+
+.nav-link a:hover {
+    text-decoration: line-through;
+}
