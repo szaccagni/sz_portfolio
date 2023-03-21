@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'roboto-bold';
+  src: URL('./fonts/roboto/Roboto-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'roboto-medium';
+  src: URL('./fonts/roboto/Roboto-Medium.otf') format('opentype');
+}
+
 :root {
   --red-orange: #FF5937;
   --yellow: #FFE973;
@@ -17,7 +27,7 @@ body,html {
 body {
   background-color: var(--red-orange);
   color: var(--yellow);
-  font-family: 'Circular-Loom';
+  font-family: 'roboto-medium', 'Circular-Loom';
   font-size: 65px;
   height: 100vh;
 }

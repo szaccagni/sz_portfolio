@@ -1,8 +1,14 @@
 import './Home.css'
 import image1 from '../../assets/me3.jpg'
 import image2 from '../../assets/me4.JPG' 
+import { useEffect } from 'react'
 
-export default function Home() {
+export default function Home({setActiveLink}) {
+    
+    useEffect( function() {
+       setActiveLink('home')
+    }, [])
+
     return (
         <div className='home-container'>
             <div className='photo-booth-container'>

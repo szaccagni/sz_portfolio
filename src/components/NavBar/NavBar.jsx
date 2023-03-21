@@ -1,10 +1,7 @@
 import './NavBar.css'
 import { Link } from 'react-router-dom'
-import { useState } from 'react'
 
-export default function NavBar() {
-    const [activeLink, setActiveLink] = useState('')
-
+export default function NavBar({activeLink}) {
     const activeStyle = {
         textDecoration: 'line-through',
     }
@@ -13,17 +10,14 @@ export default function NavBar() {
         <div className='nav-bar'>
             <div className='nav-bar-title'><div>SARAH</div> &nbsp;<div>ZACCAGNI</div></div>
             <div className='nav-link'>
-                <Link to='/home' 
-                    style={ activeLink === 'home' ? activeStyle : {}}
-                    onClick={ () => setActiveLink('home')}>HOME</Link>
+                <Link to='/' 
+                    style={ activeLink === 'home' ? activeStyle : {}}>HOME</Link>
             </div>
             <div className='nav-link'>
-                <Link to='/projects' style={ activeLink === 'projects' ? activeStyle : {}}
-                onClick={ () => setActiveLink('projects')}>PROJECTS</Link>
+                <Link to='/projects' style={ activeLink === 'projects' ? activeStyle : {}}>PROJECTS</Link>
             </div>
             <div className='nav-link'>
-                <Link to='/contact' style={ activeLink === 'contact' ? activeStyle : {}}
-                onClick={ () => setActiveLink('contact')}>CONTACT</Link>
+                <Link to='/contact' style={ activeLink === 'contact' ? activeStyle : {}}>CONTACT</Link>
             </div>
         </div>
     )
