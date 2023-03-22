@@ -21,7 +21,7 @@
 }
 
 #root {
-  height: 100%;
+  height: 100vh;
 }
 
 body,html {
@@ -32,13 +32,19 @@ body,html {
 * {
   box-sizing: border-box;
 }
+html {
+  height: -webkit-fill-available;
+}
 
 body {
   background-color: var(--red-orange);
   color: var(--yellow);
   font-family: 'roboto-medium', 'Circular-Loom';
   font-size: 65px;
-  height: 100vh;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  max-height: 100vh;
+  max-height: -webkit-fill-available;
 }
 
 @media screen and (max-width:650px) {
