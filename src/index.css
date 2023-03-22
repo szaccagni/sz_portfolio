@@ -17,7 +17,10 @@
   --red-orange: #FF5937;
   --yellow: #FFE973;
   --off-white: #F9F9F9;
-  --pale-green: #9BC8A0;
+  --pale-green: #9BC8A0;  
+}
+
+#root {
   height: 100%;
 }
 
