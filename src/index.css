@@ -8,6 +8,11 @@
   src: URL('./fonts/roboto/Roboto-Medium.otf') format('opentype');
 }
 
+@font-face {
+  font-family: 'arimo-regular';
+  src: URL('./fonts/arimo/Arimo-Regular.otf') format('opentype');
+}
+
 :root {
   --red-orange: #FF5937;
   --yellow: #FFE973;

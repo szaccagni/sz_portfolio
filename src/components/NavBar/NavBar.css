@@ -1,8 +1,9 @@
 .nav-bar {
-    width: 40%;
+    position: absolute;
+    z-index: 100;
 }
 .nav-bar div{
-    line-height: 83%;
+    line-height: 80%;
 }
 .nav-bar-title {
     display: flex;
