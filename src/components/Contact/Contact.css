@@ -31,3 +31,15 @@
 .contact-email {
     text-align: right;
 }
+
+@media screen and (max-width: 580px){
+    #contact-email {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 820px) and (min-width: 580px){
+    #contact-email {
+        font-size: 45px;
+    }
+}

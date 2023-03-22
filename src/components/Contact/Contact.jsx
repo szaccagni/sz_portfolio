@@ -17,7 +17,7 @@ export default function Info({setActiveLink}) {
                 <div className='contact-link'>
                     <a href='https://www.linkedin.com/in/szaccagni/' target="_blank">LinkedIn {arrowAway}</a>
                 </div>
-                <div className='contact-email'>sarahzaccagni@gmail.com</div>
+                <div className='contact-email' id='contact-email'>sarahzaccagni@gmail.com</div>
             </div>
         </div>
     )
