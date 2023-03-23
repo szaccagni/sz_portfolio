@@ -42,7 +42,13 @@ body {
   font-size: 65px;
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width: 550px) {
+  body {
+      font-size:35px;
+  }
+}
+
+@media screen and (max-width:650px) and (min-width: 550px) {
   body {
       font-size:45px;
   }

@@ -60,7 +60,16 @@
     font-size: 18px;
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width: 550px) {
+    .home-text {
+        font-size: 35px;
+    }
+    .home-text-small {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:650px) and (min-width: 550px){
     .home-text {
         font-size: 45px;
     }
