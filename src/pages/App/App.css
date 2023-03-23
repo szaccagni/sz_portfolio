@@ -2,7 +2,5 @@
     display: flex;
     justify-content: space-between;
     padding: 25px;
-    /* min-height: 100vh;
-    max-height: 100vh; */
     height: 100%;
 }

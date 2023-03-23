@@ -21,30 +21,25 @@
 }
 
 #root {
-  height: 100vh;
+  height: 100%
 }
 
 body,html {
   margin: 0;
   padding: 0;
+  height: 100%
 }
 
 * {
   box-sizing: border-box;
 }
-html {
-  height: -webkit-fill-available;
-}
+
 
 body {
   background-color: var(--red-orange);
   color: var(--yellow);
   font-family: 'roboto-medium', 'Circular-Loom';
   font-size: 65px;
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
-  max-height: 100vh;
-  max-height: -webkit-fill-available;
 }
 
 @media screen and (max-width:650px) {
