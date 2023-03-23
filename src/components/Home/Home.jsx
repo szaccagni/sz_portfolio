@@ -65,10 +65,6 @@ export default function Home({setActiveLink}) {
                             <div><i class="devicon-git-plain"></i></div>
                             <div className='home-text-small'>GIT</div>
                         </div>
-                        <div className='tech-icon'>
-                            <div><i class="devicon-salesforce-plain"></i></div>
-                            <div className='home-text-small'>SALESFORCE</div>
-                        </div>
                     </div>
                 </div>
             </div>
