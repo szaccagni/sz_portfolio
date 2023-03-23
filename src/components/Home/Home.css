@@ -34,9 +34,9 @@
     align-items: flex-end;
     justify-content: flex-start;
     background-color: var(--red-orange);
-    /* z-index: -1; */
     padding: 10px 0;
     width: 100%;
+    margin-right: 5px;
 }
 
 .photo-booth img {
@@ -52,7 +52,7 @@
     bottom: 0;
     width: 100%;
     font-size: 80px;
-    padding-right:15px;
+    padding-right:10px;
 }
 
 .home-text-small {
