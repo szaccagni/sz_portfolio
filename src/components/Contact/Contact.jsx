@@ -15,7 +15,10 @@ export default function Info({setActiveLink}) {
                 <div className='contact-link'>
                     <a href='https://www.linkedin.com/in/szaccagni/' target="_blank">LinkedIn <span style={{fontFamily: 'Bootstrap-icons'}}>&#xF144;</span></a>
                 </div>
-                <div className='contact-email' id='contact-email'>sarahzaccagni@gmail.com</div>
+                <div className='contact-link'>
+                    <a href='mailto:sarahzaccagni@gmail.com?subject=Inquiry%20from%20Portfolio%20Site' target="_blank">Email <span style={{fontFamily: 'Bootstrap-icons'}}>&#xF144;</span></a>
+                </div>
+                {/* <div className='contact-email' id='contact-email'>sarahzaccagni@gmail.com</div> */}
             </div>
         </div>
     )

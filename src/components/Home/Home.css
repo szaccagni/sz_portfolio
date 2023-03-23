@@ -34,7 +34,7 @@
     align-items: flex-end;
     justify-content: flex-start;
     background-color: var(--red-orange);
-    z-index: -1;
+    /* z-index: -1; */
     padding: 10px 0;
     width: 100%;
 }
@@ -58,6 +58,7 @@
 .home-text-small {
     font-family: arimo-regular;
     font-size: 18px;
+    text-align: justify;
 }
 
 .tech-icon-container {
@@ -65,6 +66,7 @@
     flex-wrap: wrap;
     justify-content: flex-end;
     margin-top: 25px;
+    text-align: justify;
 }
 
 .tech-icon {
