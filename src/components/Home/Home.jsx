@@ -22,7 +22,7 @@ export default function Home({setActiveLink}) {
                         <div>stack</div> &nbsp;
                         <div>developer</div>
                     </div>
-                    <div className='home-text-small'>
+                    <div className='home-text-small width-90'>
                     Sarah is an innovative, solutions-driven Full Stack Developer dedicated to writing efficient code to produce a seamless UX design as well as an intuitive backend system. Her previous experience as an Officer on Interaudi Bank’s projects and innovation team has honed her project management skills as well as her ability to anticipate end user needs. She is excited to tackle problems both big and small and continue to learn and develop her skills in her next position.
                     </div>
                     <div className='tech-icon-container'>

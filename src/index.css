@@ -18,6 +18,7 @@
   --yellow: #FFE973;
   --off-white: #F9F9F9;
   --pale-green: #9BC8A0;  
+  font-size: 65px;
 }
 
 #root {
@@ -39,17 +40,16 @@ body {
   background-color: var(--red-orange);
   color: var(--yellow);
   font-family: 'roboto-medium', 'Circular-Loom';
-  font-size: 65px;
 }
 
 @media screen and (max-width: 550px) {
-  body {
+  :root {
       font-size:35px;
   }
 }
 
 @media screen and (max-width:650px) and (min-width: 550px) {
-  body {
+  :root {
       font-size:45px;
   }
 }
