@@ -32,7 +32,7 @@
     text-align: right;
 }
 
-@media screen and (max-width: 500px){
+/* @media screen and (max-width: 500px){
     .contact-link {
         font-size: 25px;
     }
@@ -51,4 +51,4 @@
     #contact-email {
         font-size: 45px;
     }
-}
+} */
