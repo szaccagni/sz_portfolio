@@ -8,6 +8,7 @@ import Projects from '../../components/Projects/Projects';
 import Contact from '../../components/Contact/Contact'
 
 export default function App() {
+  const [showNav, setShowNav] = useState('')
   const [activeLink, setActiveLink] = useState('')
   const [dimensions, setDimensions] = useState({ 
     height: window.innerHeight,
@@ -29,9 +30,9 @@ export default function App() {
   
   return (
     <main className="App">
-      <NavBar activeLink={activeLink}/>
+      <NavBar activeLink={activeLink} showNav={showNav}/>
       <Routes>
-        <Route path='/' element={<Home setActiveLink={setActiveLink}/>} />
+        <Route path='/' element={<Home setActiveLink={setActiveLink} setShowNav={setShowNav}/>} />
         <Route path='/projects' element={<Projects setActiveLink={setActiveLink} />} />
         <Route path='/contact' element={<Contact setActiveLink={setActiveLink} />} />
         <Route path='/*' element={<Navigate to="/" />} />

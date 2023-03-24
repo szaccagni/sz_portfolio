@@ -17,3 +17,14 @@
 .nav-link a:hover {
     text-decoration: line-through;
 }
+
+.fade-out {
+    opacity:0;
+    transform: translate(0, -25px);
+    transition: .2s all ease-in-out
+}
+
+.fade-in {
+    opacity:1;
+    transition: .2s all ease-in-out
+}

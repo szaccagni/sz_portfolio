@@ -63,6 +63,7 @@
 
 .width-90 {
     width: 90%;
+    padding-right:10px;
 }
 
 .tech-icon-container {
@@ -71,6 +72,7 @@
     justify-content: flex-end;
     margin: 25px 0;
     text-align: justify;
+    padding-right:10px;
 }
 
 .tech-icon {
