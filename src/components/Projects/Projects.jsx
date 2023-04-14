@@ -13,7 +13,7 @@ export default function Projects({setActiveLink}) {
                     <a href='https://trip-planner-sz-1212.herokuapp.com/' target="_blank"><div>trip</div>&nbsp;<div>planner</div><span style={{fontFamily: 'Bootstrap-icons'}}>&#xF144;</span></a>
                 </div>
                 <div className='project-link'>
-                    <a href='https://szaccagni.github.io/battle_ship/' target="_blank">battleship <span style={{fontFamily: 'Bootstrap-icons'}}>&#xF144;</span></a>
+                    <a href='https://art-collector.herokuapp.com/' target="_blank">art collector <span style={{fontFamily: 'Bootstrap-icons'}}>&#xF144;</span></a>
                 </div>
             </div>
         </div>
