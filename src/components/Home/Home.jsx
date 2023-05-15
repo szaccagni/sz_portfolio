@@ -1,7 +1,6 @@
 import './Home.css'
 import { useState, useEffect } from 'react'
 import image1 from '../../assets/me3.jpg'
-import image2 from '../../assets/me4.JPG' 
 import resume from '../../assets/resume.pdf'
 
 export default function Home({setActiveLink, setShowNav}) {
