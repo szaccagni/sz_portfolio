@@ -1,5 +1,6 @@
 import './Contact.css'
 import { useEffect } from 'react'
+import resume from '../../assets/resume.pdf'
 
 export default function Info({setActiveLink}) {
     useEffect(function() {

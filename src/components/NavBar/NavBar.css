@@ -1,6 +1,6 @@
 .nav-bar {
-    position: absolute;
     z-index: 100;
+    width:100%;
 }
 .nav-bar div{
     line-height: 80%;

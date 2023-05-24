@@ -11,7 +11,7 @@ export default function NavBar({activeLink, showNav}) {
             <div className='nav-bar-title'><div>SARAH</div> &nbsp;<div>ZACCAGNI</div></div>
             <div className='nav-link'>
                 <Link to='/' 
-                    style={ activeLink === 'home' ? activeStyle : {}}>HOME</Link>
+                    style={ activeLink === 'home' ? activeStyle : {}}>ABOUT ME</Link>
             </div>
             <div className='nav-link'>
                 <Link to='/projects' style={ activeLink === 'projects' ? activeStyle : {}}>PROJECTS</Link>
