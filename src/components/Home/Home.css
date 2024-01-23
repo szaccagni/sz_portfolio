@@ -11,6 +11,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+    align-items: flex-end;
 }
 
 .home-abs-container {
@@ -34,12 +35,6 @@
     width: 100%;
     font-size: 1.23rem;
     /* padding-right:10px; */
-}
-
-.home-bottom-container {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
 }
 
 .home-img-container {
