@@ -1,21 +1,17 @@
 {
   "files": {
-    "main.css": "/sz_portfolio/static/css/main.d87d9164.css",
-    "main.js": "/sz_portfolio/static/js/main.85cfa854.js",
-    "static/media/me-edit3.png": "/sz_portfolio/static/media/me-edit3.e557b0b27a81ead027ce.png",
-    "static/media/me-edit2.jpg": "/sz_portfolio/static/media/me-edit2.9c7250741217cff78e19.jpg",
-    "static/media/me-edit1.jpg": "/sz_portfolio/static/media/me-edit1.51039dee024ede97d951.jpg",
+    "main.css": "/sz_portfolio/static/css/main.52f84fe6.css",
+    "main.js": "/sz_portfolio/static/js/main.9a76541f.js",
     "static/media/Roboto-Bold.otf": "/sz_portfolio/static/media/Roboto-Bold.e0b80439583b23f8c782.otf",
     "static/media/Roboto-Medium.otf": "/sz_portfolio/static/media/Roboto-Medium.21f024e27eea957525f7.otf",
     "static/media/Arimo-Regular.otf": "/sz_portfolio/static/media/Arimo-Regular.6ed6e70ab3f286451318.otf",
-    "static/media/me3.jpg": "/sz_portfolio/static/media/me3.b47cee1d050b620888e6.jpg",
     "static/media/resume.pdf": "/sz_portfolio/static/media/resume.6f3c6af0b1885dd2f551.pdf",
     "index.html": "/sz_portfolio/index.html",
-    "main.d87d9164.css.map": "/sz_portfolio/static/css/main.d87d9164.css.map",
-    "main.85cfa854.js.map": "/sz_portfolio/static/js/main.85cfa854.js.map"
+    "main.52f84fe6.css.map": "/sz_portfolio/static/css/main.52f84fe6.css.map",
+    "main.9a76541f.js.map": "/sz_portfolio/static/js/main.9a76541f.js.map"
   },
   "entrypoints": [
-    "static/css/main.d87d9164.css",
-    "static/js/main.85cfa854.js"
+    "static/css/main.52f84fe6.css",
+    "static/js/main.9a76541f.js"
   ]
 }
