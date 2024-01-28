@@ -1,6 +1,6 @@
 import './Home.css'
 import { useEffect } from 'react'
-import resume from '../../assets/resume.pdf'
+import resume from '../../assets/Resume24.pdf'
 
 export default function Home({setActiveLink}) {
     useEffect(function() {

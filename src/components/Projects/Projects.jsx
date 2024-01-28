@@ -13,9 +13,6 @@ export default function Projects({setActiveLink}) {
                     <a href='https://art-collector.herokuapp.com/' target="_blank" rel="noreferrer">art collector <span style={{fontFamily: 'Bootstrap-icons'}}>&#xF144;</span></a>
                 </div>
                 <div className='project-link'>
-                    <a href='https://san-fran-curb-cuisine.vercel.app/' target="_blank" rel="noreferrer"><div>curb</div>&nbsp;<div>cuisine</div><span style={{fontFamily: 'Bootstrap-icons'}}>&#xF144;</span></a>
-                </div>
-                <div className='project-link'>
                     <a href='https://trip-planner-sz-1212.herokuapp.com/' target="_blank" rel="noreferrer"><div>trip</div>&nbsp;<div>planner</div><span style={{fontFamily: 'Bootstrap-icons'}}>&#xF144;</span></a>
                 </div>
             </div>
